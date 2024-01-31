@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar 2024</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <select name="Month" id="Month">
+          <option value="" selected>Jan</option>
+          <option value="">Feb</option>
+          <option value="">Mar</option>
+          <option value="">Apr</option>
+          <option value="">May</option>
+          <option value="">Jun</option>
+          <option value="">Jul</option>
+          <option value="">Aug</option>
+          <option value="">Sep</option>
+          <option value="">Oct</option>
+          <option value="">Nov</option>
+          <option value="">Dec</option>
+        </select>
+        <select name="Year" id="Year">
+          <option value="">2021</option>
+          <option value="">2022</option>
+          <option value="">2023</option>
+          <option value="" selected>2024</option>
+          <option value="">2025</option>
+        </select>
+      </form>
+      <table>
+        <tr>
+          <td>M</td>
+          <td>T</td>
+          <td>W</td>
+          <td>T</td>
+          <td>F</td>
+          <td>S</td>
+          <td>S</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td class="selectedDay roundLeft">22</td>
+          <td class="selectedDay">23</td>
+          <td class="selectedDay">24</td>
+          <td class="selectedDay">25</td>
+          <td class="selectedDay">26</td>
+          <td class="selectedDay">27</td>
+          <td class="selectedDay roundRight">28</td>
+        </tr>
+        <tr>
+          <td class="selectedDay roundLeft">29</td>
+          <td class="selectedDay">30</td>
+          <td class="selectedDay roundRight roundLeft holiday">31</td>
+          <td class="dayOff">1</td>
+          <td class="dayOff">2</td>
+          <td class="dayOff">3</td>
+          <td class="dayOff">4</td>
+        </tr>
+      </table>
+      <span>
+        <button>Back</button>
+        <button>Apply</button>
+      </span>
+    </div>
+  </body>
+</html>
